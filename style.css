@@ -1,0 +1,98 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Comic Sans MS';
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  radial-gradient(#0b0b11 0.5px, transparent 0.5px), radial-gradient(#0b0b11 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+}
+.divform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divInput1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idtituloformulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background-color: #fff;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px -5px rgb(0 0 0 / 30%);
+  text-align: center;
+}
+.form_label{
+  cursor: pointer;
+  top: 0;
+  left: 5px;
+}
+select{
+  width: 50%;
+  height: 25px;
+  font-size: 15px;
+  font-family: 'Comic Sans MS';
+}
+.idtituloformulario {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: 'Comic Sans MS';
+}
+table {
+	height: 150px;
+	width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#idlogo {
+	width: 140px;
+	height: 100%;
+}
+#idtitulo {
+  font-size: 50px;
+  font-family: 'Comic Sans MS';
+}
+.input{
+  width: 100%;
+  color:#1f1d1d;
+  font-size: 15px;
+  padding: 10px 5px;
+  font-family: 'Comic Sans MS';
+}
+.btnEnviar{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button {
+  background-color:blue;
+  padding: 7px 7px;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  font-family: 'Comic Sans MS';
+  font-size: 20px;
+}
+#divMensaje{
+  display: none;
+  font-size: 25px;
+}

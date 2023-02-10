@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <td>
+            <a href="https://www.google.com" target="_blank"><img id="idlogo" src="img/google.webp" alt="google"></a>
+          </td>
+          <td>
+            <h2 id="idtitulo">oogle Account </h2>  
+          </td>
+        </tr>
+    </table>
+    
+    <div class="divform">
+        <form class="form">
+          <h1 class="idtituloformulario">LOGIN</h1>
+          <label class="form_label" >Correo</label>
+          <div class="divInput1">
+            <input type="text" class="input" placeholder="eduardomejias@gmail.com">
+          </div>
+          <br>
+          <label class="form_label" >Usuario</label>
+          <div class="divInput1">
+            <input type="text" class="input" placeholder="Eduardo23">
+          </div>
+          <br>
+          <label class="form_label">Contraseña</label>
+          <div class="divInput1">
+            <input type="password" class="input" placeholder=" ">
+          </div>
+          <br>
+          <label class="form_label">Confirmar contraseña</label>
+          <div class="divInput1">
+            <input type="password" class="input" placeholder="">
+          </div>
+          <br>
+
+          <div class="divInput1">
+            <input type="radio" id ="Femenino" name="genero" value= "0" class="input" >
+            <label for="Femenino" class="form_label">Femenino  &nbsp</label>
+
+            <input type="radio" id ="Masculino" name="genero" value= "1" class="input">
+            <label for="Masculino" class="form_label">Masculino  &nbsp</label>
+
+            <input type="radio" id ="X" name="genero" value= "2" class="input">
+            <label for="x" class="form_label">X</label>
+          </div>
+
+          <br/>
+
+          <div class="divInput1">
+            <label for="Estado Civil" class="form_label">Estado Civil  &nbsp</label>
+            <select form="Estado Civil" id="estadoCivil" autofocus>
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Viudo">Viudo</option>
+                <option value="Divorciado">Divorciado</option>
+            </select>
+          </div>
+
+          <br/>
+          <div class="btnEnviar">
+            <button id="idbtnenviar" onclick="mostrarMensaje()">Enviar
+            </button>
+          </div><br>
+          <div id="divMensaje">Formulario enviado correctamente</div>
+          
+        </form>
+    </div>
+    <script src="controller.js"></script>
+
+</body>
+</html>
